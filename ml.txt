@@ -1,1 +1,3 @@
 wandb
+mujoco_py
+patchelf
