@@ -1,0 +1,6 @@
+#!/bin/sh
+
+# Usage: ./alf_train.sh name_of_program. Move this to a folder in PATH
+
+python3 -m alf.bin.train --root_dir ~/.rl/$1 --conf ./alf/examples/$1_conf.py
+
